@@ -57,49 +57,49 @@ function outcome() {
     const answer = Math.floor(Math.random() * 20);
     
     if (answer < 1) {
-        document.getElementById("response").style.backgroundImage=url("../img/magic8ball_1.png");
+        document.getElementById("response").style.backgroundImage="url(./img/magic8ball_1.png)";
     }else if (answer < 2) {
-        document.getElementById("response").style.backgroundImage='url("../img/magic8ball_2.png")';
+        document.getElementById("response").style.backgroundImage="url(./img/magic8ball_2.png)";
     }else if (answer < 3) {
-        document.getElementById("response").style.backgroundImage='url("../img/magic8ball_3edit.png")';
+        document.getElementById("response").style.backgroundImage="url(./img/magic8ball_3edit.png)";
     }else if (answer < 4) {
-        document.getElementById("response").style.backgroundImage='url("../img/magic8ball_4.png")';
+        document.getElementById("response").style.backgroundImage="url(./img/magic8ball_4.png)";
     }else if (answer < 5) {
-        document.getElementById("response").style.backgroundImage='url("../img/magic8ball_5.png")';
+        document.getElementById("response").style.backgroundImage="url(./img/magic8ball_5.png)";
     }else if (answer < 6) {
-        document.getElementById("response").style.backgroundImage='url("../img/magic8ball_6.png")';
+        document.getElementById("response").style.backgroundImage="url(./img/magic8ball_6.png)";
     }else if (answer < 7) {
-        document.getElementById("response").style.backgroundImage='url("../img/magic8ball_7.png")';
+        document.getElementById("response").style.backgroundImage="url(./img/magic8ball_7.png)";
     }else if (answer < 8) {
-        document.getElementById("response").style.backgroundImage='url("../img/magic8ball_8.png")';
+        document.getElementById("response").style.backgroundImage="url(./img/magic8ball_8.png)";
     }else if (answer < 9) {
-        document.getElementById("response").style.backgroundImage='url("../img/magic8ball_9.png")';
+        document.getElementById("response").style.backgroundImage="url(./img/magic8ball_9.png)";
     }else if (answer < 10) {
-        document.getElementById("response").style.backgroundImage='url("../img/magic8ball_10.png")';
+        document.getElementById("response").style.backgroundImage="url(./img/magic8ball_10.png)";
     }else if (answer < 11) {
-        document.getElementById("response").style.backgroundImage='url("../img/magic8ball_11.png")';
+        document.getElementById("response").style.backgroundImage="url(./img/magic8ball_11.png)";
     }else if (answer < 12) {
-        document.getElementById("response").style.backgroundImage='url("../img/magic8ball_12.png")';
+        document.getElementById("response").style.backgroundImage="url(./img/magic8ball_12.png)";
     }else if (answer < 13) {
-        document.getElementById("response").style.backgroundImage='url("../img/magic8ball_13.png")';
+        document.getElementById("response").style.backgroundImage="url(./img/magic8ball_13.png)";
     }else if (answer < 14) {
-        document.getElementById("response").style.backgroundImage='url("../img/magic8ball_14.png")';
+        document.getElementById("response").style.backgroundImage="url(./img/magic8ball_14.png)";
     }else if (answer < 15) {
-        document.getElementById("response").style.backgroundImage='url("../img/magic8ball_15.png")';
+        document.getElementById("response").style.backgroundImage="url(./img/magic8ball_15.png)";
     }else if (answer < 16) {
-        document.getElementById("response").style.backgroundImage='url"(../img/magic8ball_16.png")';
+        document.getElementById("response").style.backgroundImage="url(./img/magic8ball_16.png)";
     }else if (answer < 17) {
-        document.getElementById("response").style.backgroundImage='url("../img/magic8ball_17.png")';
+        document.getElementById("response").style.backgroundImage="url(./img/magic8ball_17.png)";
     }else if (answer < 2) {
-        document.getElementById("response").style.backgroundImage='url("../img/magic8ball_18.png")';
+        document.getElementById("response").style.backgroundImage="url(./img/magic8ball_18.png)";
     }else if (answer < 18) {
-        document.getElementById("response").style.backgroundImage='url("../img/magic8ball_19.png")';
+        document.getElementById("response").style.backgroundImage="url(./img/magic8ball_19.png)";
     }else if (answer < 19) {
-        document.getElementById("response").style.backgroundImage='url("../img/magic8ball_20.png")';
+        document.getElementById("response").style.backgroundImage="url(./img/magic8ball_20.png)";
     }
 }
 
-//Moving images in background/this code copied form website
+//Moving images in background/copied code
 //set up the gridworm
 class GridWorm
 { 
