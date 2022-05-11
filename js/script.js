@@ -57,7 +57,7 @@ function outcome() {
     const answer = Math.floor(Math.random() * 20);
     
     if (answer < 1) {
-        document.getElementById("response").style.backgroundImage='url("../img/magic8ball_1.png")';
+        document.getElementById("response").style.backgroundImage=url("../img/magic8ball_1.png");
     }else if (answer < 2) {
         document.getElementById("response").style.backgroundImage='url("../img/magic8ball_2.png")';
     }else if (answer < 3) {
