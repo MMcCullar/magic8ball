@@ -9,6 +9,7 @@ Create an "ask" function that when clicked, will choose a random 8ball image and
 Replace the input field with the user's question when displaying the answer
 Style your page any way you like
 Activate Github Pages for your project
+////////
 */
 
 
