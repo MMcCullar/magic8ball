@@ -37,7 +37,7 @@ button.addEventListener("click", function() {
 function shake() {
     var ball = document.getElementById("response");
     ball.classList.add("shake");
-    document.getElementById("response").style.backgroundImage="url(/img/magic8ball_extra.png)";
+    document.getElementById("response").style.backgroundImage="url(./img/magic8ball_extra.png)";
     setTimeout(function(){ball.classList.remove("shake");}, 1500);
     setTimeout(function(){outcome();}, 1500);
 
