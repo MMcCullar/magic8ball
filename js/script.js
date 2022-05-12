@@ -29,14 +29,17 @@ button.addEventListener("click", function() {
         audio.play();
         shake();
         question();
+        input.value = ("");
     }
-  });
+});
+
 //When ENTER key is pressed
 input.addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
         document.getElementById("button").click();
       }
-    });
+});
+
 //Function to shake
 function shake() {
     var ball = document.getElementById("response");

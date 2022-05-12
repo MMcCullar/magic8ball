@@ -1,13 +1,16 @@
 /*font-family: 'Orbitron', sans-serif;*/
+
 .background {
     background-image: url("../img/megatrends_1.png");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
+
 .top {
     padding-top: 4em;
-}    
+}   
+
 .title {
     text-align: center;
     font-family: 'Orbitron';
@@ -58,5 +61,7 @@ p {
     90% {transform: translate(4px, 4px) rotate(0deg);}
     100% {transform: translate(4px, -4px) rotate(-1deg);}
 }
+
+
 
 
