@@ -8,7 +8,7 @@
 }
 
 .top {
-    padding-top: 4em;
+    padding-top: 2em;
 }   
 
 .title {
@@ -41,7 +41,7 @@ p {
     background-size:contain;
     position:absolute;
     left: 10px;
-    top: 320px;
+    top: 350px;
 }
 
 .shake {
